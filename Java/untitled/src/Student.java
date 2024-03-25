@@ -4,14 +4,14 @@ public class Student {
     private String name;
     private boolean gender;
 
-    //Constructor khong co doi so
+    //Constructor không có đối số
     public Student(){
         this.id=-1;
         this.name="noname";
         this.gender=true;
     }
 
-    //Constructor co doi so
+    //Constructor có đối số
     public Student(int id,String name,boolean gender){
         this.id=id;
         this.name=name;

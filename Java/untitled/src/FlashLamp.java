@@ -37,6 +37,6 @@ public class FlashLamp {
             flashLamp.turnOff();
             System.out.println("FlashLamp is off.");
         }
-        System.out.println("Remaining battery power: " + flashLamp.getBatteryInfo());
+        System.out.println("Remaining battery power: " + flashLamp.getBatteryInfo()+"% ");
     }
 }
