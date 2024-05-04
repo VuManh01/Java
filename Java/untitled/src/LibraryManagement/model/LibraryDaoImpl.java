@@ -95,7 +95,7 @@ public class LibraryDaoImpl implements LibraryDAO{
             // Cập nhật các thông tin khác của thủ thư từ cơ sở dữ liệu tương tự
 
             System.out.println("Book id: " + rs.getInt(1));
-            System.out.println("Student id: " + rs.getInt(2));
+            System.out.println("session2.Student id: " + rs.getInt(2));
         }
 
         return librarian;

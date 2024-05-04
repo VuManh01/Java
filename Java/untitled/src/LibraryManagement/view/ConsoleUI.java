@@ -17,7 +17,7 @@ public class ConsoleUI {
     public static void menu(){
         System.out.println("====Library Manager====");
         System.out.println("1.Book manager");
-        System.out.println("2.Student manager");
+        System.out.println("2.session2.Student manager");
         System.out.println("3.Book lending manager");
     }
     public static void getAllBook() throws SQLException {
@@ -106,7 +106,7 @@ public class ConsoleUI {
     public static void getAllStudent() throws SQLException {
         ArrayList<Student> listStudent = controller.getAllStudent();
         listStudent.forEach((student ->
-                System.out.println("Student id: " + student.getStudent_id()+"\nStudent name: "+student.getStudent_name()+"\nClass: "+student.getStudent_class()+"\n===========================")
+                System.out.println("session2.Student id: " + student.getStudent_id()+"\nsession2.Student name: "+student.getStudent_name()+"\nClass: "+student.getStudent_class()+"\n===========================")
         ));
     }
     public static void createStudent() throws SQLException {
@@ -189,7 +189,7 @@ public class ConsoleUI {
     public static void getAllList() throws SQLException {
         ArrayList<Librarian> list = controller.getAllList();
         list.forEach((librarian ->
-                System.out.println("Student id: " + librarian.getStudent_id()+"\nBook id:: "+librarian.getBook_id()+ "\nBook Name:"+librarian.getBook_name()+"\nStudent name:" + librarian.getStudent_name()+"\n===========================")
+                System.out.println("session2.Student id: " + librarian.getStudent_id()+"\nBook id:: "+librarian.getBook_id()+ "\nBook Name:"+librarian.getBook_name()+"\nsession2.Student name:" + librarian.getStudent_name()+"\n===========================")
         ));
     }
     public static void createList() throws SQLException {
@@ -211,7 +211,7 @@ public class ConsoleUI {
                 controller.createListController(librarian);
                 System.out.println("Successfully lending books to students!");
             } else {
-                System.out.println("Student not found.");
+                System.out.println("session2.Student not found.");
             }
         } else {
             System.out.println("Book not found.");
@@ -295,7 +295,7 @@ public class ConsoleUI {
                     menuBook();
                     break;
                 case 2:
-                    System.out.println("Student table:");
+                    System.out.println("session2.Student table:");
                     menuStudent();
                     break;
                 case 3:

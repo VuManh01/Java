@@ -63,9 +63,9 @@ public class StudentDAOImpl implements StudentDAO{
 
         ResultSet rs = exQuery();
         while (rs.next()){
-            System.out.println("Student id: " + rs.getInt(1));
-            System.out.println("Student name: " +rs.getString(2));
-            System.out.println("Student class: " + rs.getString(3));
+            System.out.println("session2.Student id: " + rs.getInt(1));
+            System.out.println("session2.Student name: " +rs.getString(2));
+            System.out.println("session2.Student class: " + rs.getString(3));
         }
         return student;
     }

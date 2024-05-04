@@ -1,7 +1,7 @@
 package session3.lab6.ex2;
 
 public class UncheckedException {
-    //Constructor for objects of class Client
+    //Constructor for objects of class session2.Client
     public UncheckedException(){
         //To Do:
     }
