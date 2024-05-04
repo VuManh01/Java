@@ -11,7 +11,7 @@ public class TestShape {
         System.out.println("Area: " + rectangle.getArea());
         System.out.println("===============");
         System.out.println("Triangle");
-        System.out.println("Color: " + rectangle.getColor());
+        System.out.println("Color: " + triangle.getColor());
         System.out.println("Area: " + triangle.getArea());
     }
 }
