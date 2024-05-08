@@ -1,4 +1,4 @@
-package OrderManagement.model;
+package ShoppingManagement.model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ public class MySqlConnect {
     public static Connection getMySQLConnection() throws SQLException {
         Connection conn = null;
         String hostName = "localhost";
-        String dbName = "OrderManagement";
+        String dbName = "ShoppingManagement";
         String userName = "root";
         String password = "";
 

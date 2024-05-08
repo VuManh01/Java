@@ -1,19 +1,19 @@
-package OrderManagement.entity;
+package ShoppingManagement.entity;
 
 public class Product {
     private int productId;
     private String productName;
+    private String productDescription;
     private Double productPrice;
-    private int productQuantity;
 
     public Product() {
     }
 
-    public Product(int productId, String productName, Double productPrice, int productQuantity) {
+    public Product(int productId, String productName, String productDescription, Double productPrice) {
         this.productId = productId;
         this.productName = productName;
+        this.productDescription = productDescription;
         this.productPrice = productPrice;
-        this.productQuantity = productQuantity;
     }
 
     public int getProductId() {
@@ -40,11 +40,11 @@ public class Product {
         this.productPrice = productPrice;
     }
 
-    public int getProductQuantity() {
-        return productQuantity;
+    public String getProductDescription() {
+        return productDescription;
     }
 
-    public void setProductQuantity(int productQuantity) {
-        this.productQuantity = productQuantity;
+    public void setProductDescription(String productDescription) {
+        this.productDescription = productDescription;
     }
 }

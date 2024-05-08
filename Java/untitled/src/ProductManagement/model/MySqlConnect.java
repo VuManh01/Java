@@ -9,7 +9,7 @@ public class MySqlConnect {
     public static Connection getMySQLConnection() throws SQLException {
         Connection conn = null;
         String hostName = "localhost";
-        String dbName = "ProductManagement";
+        String dbName = "ShoppingManagement";
         String userName = "root";
         String password = "";
 
